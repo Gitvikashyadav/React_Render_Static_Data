@@ -1,0 +1,112 @@
+/* Reset default browser styles */
+/* Global reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Page background */
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #6366f1, #9333ea);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Outer wrapper for perfect centering */
+.counter-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card container */
+.counter-container {
+    background: #ffffff;
+    width: 370px;
+    padding: 35px 30px;
+    border-radius: 16px;
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+/* Title */
+.title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 6px;
+}
+
+/* Subtitle */
+.subtitle {
+    font-size: 14px;
+    color: #64748b;
+    margin-bottom: 25px;
+}
+
+/* Counter display */
+.Dis {
+    font-size: 56px;
+    font-weight: bold;
+    color: #4f46e5;
+    margin: 20px 0 30px;
+}
+
+/* Buttons row */
+.buttons {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 18px;
+}
+
+/* Common button */
+button {
+    flex: 1;
+    padding: 14px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Increment button */
+button.inc {
+    background: linear-gradient(135deg, #22c55e, #16a34a);
+    color: white;
+}
+
+button.inc:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(34, 197, 94, 0.5);
+}
+
+/* Decrement button */
+button.dec {
+    background: linear-gradient(135deg, #ef4444, #dc2626);
+    color: white;
+}
+
+button.dec:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(239, 68, 68, 0.5);
+}
+
+/* Reset button */
+button.reset {
+    width: 100%;
+    background: linear-gradient(135deg, #64748b, #475569);
+    color: white;
+    padding: 14px;
+}
+
+button.reset:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(100, 116, 139, 0.5);
+}
