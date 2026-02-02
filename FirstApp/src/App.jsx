@@ -4,6 +4,9 @@ import { useState } from 'react'
 import './App.css'
 import Counter_App from './Components/Counter'
 import Inline_css from './Components/Inline_css_and_props'
+import Api_Data from './Components/ApiData_render'
+import Form_first from './Components/Form_first_creation'
+import Random_colr from './Components/Color_Generat'
 
 
 
@@ -23,10 +26,15 @@ function App() {
     {/* <Inline_css sty1={sty1} label={"login"}/> */}
     {/* <Inline_css sty1={sty2} label={"Regi"}/>
     <Inline_css sty1={sty3} label={"logout"}/> */}
-    {
+    {/* {
     arr.map((obj)=>{
       return <Inline_css sty1={obj} />
-    })}
+    })} */}
+
+    {/* <Api_Data/> */}
+
+    {/* <Form_first/> */}
+    <Random_colr/>
      </> 
   )
 }
